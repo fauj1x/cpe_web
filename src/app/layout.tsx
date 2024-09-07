@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: "CV Cipta Prima Engginering",
   description: "CV Cipta Prima Engginering",
   icons: {
-    icon: "\logo.png ",
+    icon: "\logo.png",
   }
 };
 
