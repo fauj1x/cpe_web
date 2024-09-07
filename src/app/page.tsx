@@ -15,7 +15,10 @@ export default function Page() {
 
         
         <div className="absolute inset-0 flex flex-col justify-center items-center">
-          <h1 className='text-white font-bold text-4xl mb-6'>CIPTA PRIMA ENGINEERING</h1>
+        <h1 className='text-white font-bold text-5xl mb-6 text-center'>
+        <div className='block mb-4'>CIPTA</div>
+          <div className='block'>PRIMA ENGINEERING</div>
+        </h1>
           <div className="flex space-x-4">
             <button className="px-6 py-3 bg-yellow-600 text-white font-regular rounded-lg hover:bg-yellow-800 transition">
               TENTANG CPE
