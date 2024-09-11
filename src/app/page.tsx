@@ -86,67 +86,67 @@ Dalam  hal  ini, kami  menawarkan beberapa jasa  mulai dari perencanaan, kaj
 
       </div>
       <div className="flex flex-wrap justify-center space-x-4 mt-10">
-      <div className="bg-white shadow-lg rounded-lg p-6 text-center w-[251px] h-[289px]">
-          <div className="flex justify-center items-center w-16 h-16 mx-auto bg-gray-100 rounded-full -mt-14">
-            <img src="/doc_icon.png" alt="Icon" className="w-16 h-16" />
-          </div>
-          <h3 className="text-xl font-semibold text-gray-800 mb-2 mt-16">
-            Dokumen <span className="text-purple-600">Perencanaan</span>
-          </h3>
-          <p className="text-gray-500 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <a href="#" className="text-gray-600 hover:text-purple-600 transition">
-            <svg className="w-6 h-6 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4v16m8-8H4" />
-            </svg>
-          </a>
+        <div className="bg-white shadow-lg rounded-lg p-6 text-center w-[251px] h-[289px] flex flex-col items-center">
+            <div className="flex justify-center items-center w-16 h-16 mx-auto bg-gray-100 rounded-full -mt-14">
+                <img src="doc_icon.png" alt="Icon" className="w-16 h-16" />
+            </div>
+            <h3 className="text-xl font-semibold text-gray-800 mb-2 mt-16">
+                Dokumen <span className="text-purple-600">Perencanaan</span>
+            </h3>
+            <p className="text-gray-500 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#" className="text-gray-600 hover:text-purple-600 transition flex items-center justify-center mt-auto -mb-2">
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4v16m8-8H4" />
+                </svg>
+            </a>
         </div>
 
-        <div className="bg-white shadow-lg rounded-lg p-6 text-center w-[251px] h-[289px]">
-          <div className="flex justify-center items-center w-16 h-16 mx-auto bg-gray-100 rounded-full -mt-14">
-            <img src="/leaf_icon.png" alt="Icon" className="w-16 h-16" />
-          </div>
-          <h3 className="text-xl font-semibold text-gray-800 mb-2 mt-16">
-            Kajian <span className="text-purple-600">Lingkungan</span>
-          </h3>
-          <p className="text-gray-500 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <a href="#" className="text-gray-600 hover:text-purple-600 transition">
-            <svg className="w-6 h-6 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4v16m8-8H4" />
-            </svg>
-          </a>
+        <div className="bg-white shadow-lg rounded-lg p-6 text-center w-[251px] h-[289px] flex flex-col items-center">
+            <div className="flex justify-center items-center w-16 h-16 mx-auto bg-gray-100 rounded-full -mt-14">
+                <img src="leaf_icon.png" alt="Icon" className="w-16 h-16" />
+            </div>
+            <h3 className="text-xl font-semibold text-gray-800 mb-2 mt-16">
+                Kajian <span className="text-purple-600">Lingkungan</span>
+            </h3>
+            <p className="text-gray-500 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#" className="text-gray-600 hover:text-purple-600 transition flex items-center justify-center mt-auto -mb-2">
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4v16m8-8H4" />
+                </svg>
+            </a>
         </div>
 
-        <div className="bg-white shadow-lg rounded-lg p-6 text-center w-[251px] h-[289px]">
-          <div className="flex justify-center items-center w-16 h-16 mx-auto bg-gray-100 rounded-full -mt-14">
-            <img src="/group_icon.png" alt="Icon" className="w-16 h-16" />
-          </div>
-          <h3 className="text-xl font-semibold text-gray-800 mb-2 mt-16">
-            Pendampingan <span className="text-purple-600">Oprasional</span>
-          </h3>
-          <p className="text-gray-500 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <a href="#" className="text-gray-600 hover:text-purple-600 transition">
-            <svg className="w-6 h-6 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4v16m8-8H4" />
-            </svg>
-          </a>
+        <div className="bg-white shadow-lg rounded-lg p-6 text-center w-[251px] h-[289px] flex flex-col items-center">
+            <div className="flex justify-center items-center w-16 h-16 mx-auto bg-gray-100 rounded-full -mt-14">
+                <img src="group_icon.png" alt="Icon" className="w-16 h-16" />
+            </div>
+            <h3 className="text-xl font-semibold text-gray-800 mb-2 mt-16">
+                Pendampingan <span className="text-purple-600">Oprasional</span>
+            </h3>
+            <p className="text-gray-500 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#" className="text-gray-600 hover:text-purple-600 transition flex items-center justify-center mt-auto -mb-2">
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4v16m8-8H4" />
+                </svg>
+            </a>
         </div>
 
-        <div className="bg-white shadow-lg rounded-lg p-6 text-center w-[251px] h-[289px]">
-          <div className="flex justify-center items-center w-16 h-16 mx-auto bg-gray-100 rounded-full -mt-14">
-            <img src="/learn_icon.png" alt="Icon" className="w-16 h-16" />
-          </div>
-          <h3 className="text-xl font-semibold text-gray-800 mb-2 mt-16">
-            <span className="text-purple-600">Pelatihan</span>
-          </h3>
-          <p className="text-gray-500 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <a href="#" className="text-gray-600 hover:text-purple-600 transition">
-            <svg className="w-6 h-6 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4v16m8-8H4" />
-            </svg>
-          </a>
+        <div className="bg-white shadow-lg rounded-lg p-6 text-center w-[251px] h-[289px] flex flex-col items-center">
+            <div className="flex justify-center items-center w-16 h-16 mx-auto bg-gray-100 rounded-full -mt-14">
+                <img src="learn_icon.png" alt="Icon" className="w-16 h-16" />
+            </div>
+            <h3 className="text-xl font-semibold text-gray-800 mb-2 mt-16">
+                <span className="text-purple-600">Pelatihan</span>
+            </h3>
+            <p className="text-gray-500 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#" className="text-gray-600 hover:text-purple-600 transition flex items-center justify-center mt-auto -mb-2">
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4v16m8-8H4" />
+                </svg>
+            </a>
         </div>
+    </div>
 
-      </div>
 
     </div>
   );
