@@ -2,26 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --index: calc(1vw + 1vh);
+    --transition-duration: 1.5s;
+    --transition-timing-function: cubic-bezier(0.05, 0.5, 0.015, 1);
   }
-}
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif, 'Poppins';
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  ::selection {
+    @apply bg-[#3b532c] text-white;
   }
+
+  /* Mengatur perspektif dan transformasi 3D */
+  .perspective {
+    perspective: 1000px;
+  }
+
+  .transform-3d {
+    transform-style: preserve-3d;
+  }
+
+  .layer-bg {
+    @apply absolute -inset-[5vw] bg-cover bg-center flex items-center justify-center;
+  }
+
+  .layer-content {
+    @apply absolute -inset-[5vw] flex items-center justify-center;
+  }
+
+  /* Pengaturan shadow */
+  .text-shadow {
+    text-shadow: 0 0 15px #709e42;
+  }
+  /* global.css */
+
+
+
 }
