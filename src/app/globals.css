@@ -23,11 +23,11 @@
   }
 
   .layer-bg {
-    @apply absolute -inset-[5vw] bg-cover bg-center flex items-center justify-center;
+    @apply absolute bg-cover bg-center flex items-center justify-center;
   }
 
   .layer-content {
-    @apply absolute -inset-[5vw] flex items-center justify-center;
+    @apply absolute flex items-center justify-center;
   }
 
   /* Pengaturan shadow */
@@ -35,7 +35,8 @@
     text-shadow: 0 0 15px #709e42;
   }
   /* global.css */
+  /* * {
+    outline: 1px solid red;
+  } */
 
-
-
-}
+  }

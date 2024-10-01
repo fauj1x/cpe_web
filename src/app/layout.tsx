@@ -44,7 +44,7 @@ export default function RootLayout({
         {/* Header atau Navbar */}
         <div className="bg-white antialiased">
           {/* Navbar mengambang */}
-          <header className=" fixed top-0 left-0 right-0 z-50 mx-auto my-6 px-4">
+          <header className="fixed top-0 left-0 right-0 z-50 mx-auto my-6">
             {/* Header atau Navbar */}
             <nav className="bg-gray-100 rounded-[35px] w-2/5 mx-auto"> {/* Mengubah lebar navbar menjadi 75% dari lebar layar */}
               <div className="mx-auto max-w-7xl px-2 sm:px-2 lg:px-8">
@@ -99,6 +99,7 @@ export default function RootLayout({
               </div>
             </nav>
           </header>
+
           <main>{children}</main>
         </div>
       </body>

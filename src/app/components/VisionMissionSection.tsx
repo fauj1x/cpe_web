@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function VisionMissionSection() {
   return (
-    <div className="mt-16 p-6 max-w-7xl mx-auto">
+    <div className="mt-16 p-6 max-w-7xl mx-auto overflow-hidden">
       <div className="flex">
         <h2 className="text-2xl font-bold mb-4 text-black">Our</h2>
         <h2 className="text-2xl font-bold mb-4 text-green-600 ml-1">Vision & Mission</h2>
