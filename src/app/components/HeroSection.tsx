@@ -20,7 +20,7 @@ export const mouseLeave = () => {
   });
 };
 
-export default function HeroSection() {
+export default function HeroSection({ id }) {
   useEffect(() => {
     // Tambahkan event listener saat komponen dimount
     window.addEventListener("mousemove", mouseMove);
@@ -34,7 +34,7 @@ export default function HeroSection() {
   }, []);
 
   return (
-    <div className='overflow-hidden'>
+    <div id={id} className='overflow-hidden'>
       <div className="mx-auto max-h-screen h-screen min-h-[500px] transform-3d rotate-x-[var(--move-y)] rotate-y-[var(--move-x)] will-change-transform transition-transform ease-[var(--transition-timing-function)] duration-[var(--transition-duration)] flex items-center justify-center">
         {/* Layer 1 */}
         <div
@@ -48,9 +48,9 @@ export default function HeroSection() {
           }}
         />
 
-        {/* Layer 2 - Layer diperbesar */}
+        {/* Layer 2 */}
         <div
-          className="layer-bg bg-layer-2 w-full h-full translate-z-20 scale-[1.06]" // Skala diperbesar menjadi 1.2
+          className="layer-bg bg-layer-2 w-full h-full translate-z-20 scale-[1.06]"
           style={{
             backgroundImage: `url('/layer-2.png')`,
             backgroundSize: "cover",
@@ -83,7 +83,6 @@ export default function HeroSection() {
             zIndex: 4,
           }}
         />
-        
 
         {/* Layer Content */}
         <div className="layer-content translate-z-[180px] scale-[.8] flex flex-col justify-center items-center h-full z-10 text-center">

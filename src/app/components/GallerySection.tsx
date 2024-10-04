@@ -1,9 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
 
-export default function GallerySection() {
+export default function GallerySection({id}) {
   return (
-    <section className="text-black body-font">
+    <section id={id} className="text-black body-font">
       <div className="container mt-32 px-5 py-24 mx-auto flex flex-wrap">
         <div className="flex w-full mb-20 flex-wrap">
           <h1 className="text-center sm:text-2xl text-2xl font-bold title-font text-black w-full mb-4">

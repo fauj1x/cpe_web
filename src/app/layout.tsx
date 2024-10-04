@@ -6,6 +6,9 @@ import { useState, useEffect } from "react";
 import Head from "next/head";
 import AOS from "aos";
 import "aos/dist/aos.css"; // Mengimpor CSS AOS
+import Link from 'next/link';
+
+
 
 const poppins = Poppins({
   weight: ['400', '700', '900'],
@@ -76,12 +79,12 @@ export default function RootLayout({
                       <img className="h-8 w-auto" src="./logo.png" alt="Your Company" />
                     </div>
                     <div className="hidden sm:ml-6 sm:block">
-                    <div className="flex space-x-4 justify-center">
-                        <a href="#" className="rounded-md px-3 py-2 text-sm font-bold text-gray-900 hover:bg-gray-300 hover:text-black">Beranda</a>
-                        <a href="#" className="rounded-md px-3 py-2 text-sm font-bold text-gray-900 hover:bg-gray-300 hover:text-black">Tentang</a>
-                        <a href="#" className="rounded-md px-3 py-2 text-sm font-bold text-gray-900 hover:bg-gray-300 hover:text-black">Klien</a>
-                        <a href="#" className="rounded-md px-3 py-2 text-sm font-bold text-gray-900 hover:bg-gray-300 hover:text-black">Artikel</a>
-                        <a href="#" className="rounded-md px-3 py-2 text-sm font-bold text-gray-900 hover:bg-gray-300 hover:text-black">Kontak</a>
+                      <div className="flex space-x-4 justify-center">
+                        <a href="#hero" className="rounded-md px-3 py-2 text-sm font-bold text-gray-900 hover:bg-gray-300 hover:text-black">Beranda</a>
+                        <a href="#about-us" className="rounded-md px-3 py-2 text-sm font-bold text-gray-900 hover:bg-gray-300 hover:text-black">Tentang</a>
+                        <a href="#vision-mission" className="rounded-md px-3 py-2 text-sm font-bold text-gray-900 hover:bg-gray-300 hover:text-black">Visi & Misi</a>
+                        <a href="#services" className="rounded-md px-3 py-2 text-sm font-bold text-gray-900 hover:bg-gray-300 hover:text-black">Layanan</a>
+                        <a href="#gallery" className="rounded-md px-3 py-2 text-sm font-bold text-gray-900 hover:bg-gray-300 hover:text-black">Galeri</a>
                       </div>
                     </div>
                   </div>
