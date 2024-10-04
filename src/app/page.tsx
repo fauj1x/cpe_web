@@ -5,6 +5,7 @@ import ServicesSection from './components/ServicesSection';
 import GallerySection from './components/GallerySection';
 import Client from './components/ClientLogos';
 import FooterSection from './components/footerSection';
+import ContactUsSection from './components/ContactUsSection';
 export default function Home() {
   return (
     <>
@@ -14,6 +15,7 @@ export default function Home() {
       <ServicesSection id="services" />
       <GallerySection id="gallery" />
       <Client id="client" />
+      <ContactUsSection id="contact-us" />
       <FooterSection />
     </>
   );

@@ -24,8 +24,8 @@ const ClientLogos = () => {
   return (
     <div className="mt-16 p-6 max-w-7xl mx-auto overflow-hidden">
       <div className="flex">
-        <h2 className="text-2xl font-bold mb-4 text-black">OUR</h2>
-        <h2 className="text-2xl font-bold mb-4 text-green-600 ml-1">CLIENT</h2>
+        <h2 className="text-2xl font-bold mb-4 text-black">Our</h2>
+        <h2 className="text-2xl font-bold mb-4 text-green-600 ml-1">Client</h2>
       </div>
 
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 mt-8">

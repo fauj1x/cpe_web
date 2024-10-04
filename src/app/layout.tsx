@@ -93,11 +93,11 @@ export default function RootLayout({
               {/* Mobile menu */}
               <div className={`sm:hidden ${isMobileMenuOpen ? 'block' : 'hidden'}`} id="mobile-menu">
                 <div className="space-y-1 px-2 pb-3 pt-2">
-                  <a href="#" className="block rounded-md px-3 py-2 text-base font-bold text-gray-900 hover:bg-gray-300 hover:text-black">Beranda</a>
-                  <a href="#" className="block rounded-md px-3 py-2 text-base font-bold text-gray-900 hover:bg-gray-300 hover:text-black">Tentang</a>
-                  <a href="#" className="block rounded-md px-3 py-2 text-base font-bold text-gray-900 hover:bg-gray-300 hover:text-black">Klien</a>
-                  <a href="#" className="block rounded-md px-3 py-2 text-base font-bold text-gray-900 hover:bg-gray-300 hover:text-black">Artikel</a>
-                  <a href="#" className="block rounded-md px-3 py-2 text-base font-bold text-gray-900 hover:bg-gray-300 hover:text-black">Kontak</a>
+                  <a href="#hero" className="block rounded-md px-3 py-2 text-base font-bold text-gray-900 hover:bg-gray-300 hover:text-black">Beranda</a>
+                  <a href="#about-us" className="block rounded-md px-3 py-2 text-base font-bold text-gray-900 hover:bg-gray-300 hover:text-black">Tentang</a>
+                  <a href="#client" className="block rounded-md px-3 py-2 text-base font-bold text-gray-900 hover:bg-gray-300 hover:text-black">Klien</a>
+                  <a href="#gellery" className="block rounded-md px-3 py-2 text-base font-bold text-gray-900 hover:bg-gray-300 hover:text-black">Pengalaman</a>
+                  <a href="#contact-us" className="block rounded-md px-3 py-2 text-base font-bold text-gray-900 hover:bg-gray-300 hover:text-black">Kontak</a>
                 </div>
               </div>
             </nav>

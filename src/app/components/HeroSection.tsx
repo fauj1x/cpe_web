@@ -22,11 +22,11 @@ export const mouseLeave = () => {
 
 export default function HeroSection({ id }) {
   useEffect(() => {
-    // Tambahkan event listener saat komponen dimount
+    // Add event listeners on mount
     window.addEventListener("mousemove", mouseMove);
     window.addEventListener("mouseleave", mouseLeave);
 
-    // Bersihkan event listener saat komponen unmount
+    // Clean up event listeners on unmount
     return () => {
       window.removeEventListener("mousemove", mouseMove);
       window.removeEventListener("mouseleave", mouseLeave);
@@ -99,12 +99,12 @@ export default function HeroSection({ id }) {
           </h1>
 
           <div className="flex space-x-4 mt-4">
-            <button className="btn px-4 py-2 bg-yellow-600 text-white font-regular rounded-lg hover:bg-yellow-800 transition md:px-6 md:py-3" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="100">
+            <a href="#about-us" className="btn px-4 py-2 bg-yellow-600 text-white font-regular rounded-lg hover:bg-yellow-800 transition md:px-6 md:py-3" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="100">
               TENTANG CPE
-            </button>
-            <button className="btn px-4 py-2 border-green-600 border-2 text-green-600 bg-transparent font-regular rounded-lg hover:bg-green-500 hover:text-green-200 transition md:px-6 md:py-3" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="100">
+            </a>
+            <a href="#contact-us" className="btn px-4 py-2 border-green-600 border-2 text-green-600 bg-transparent font-regular rounded-lg hover:bg-green-500 hover:text-green-200 transition md:px-6 md:py-3" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="100">
               HUBUNGI
-            </button>
+            </a>
           </div>
         </div>
       </div>
