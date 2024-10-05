@@ -20,7 +20,11 @@ export const mouseLeave = () => {
   });
 };
 
-export default function HeroSection({ id }) {
+interface HeroSectionProps {
+  id: string;
+}
+
+export default function HeroSection({ id }: HeroSectionProps) {
   useEffect(() => {
     // Add event listeners on mount
     window.addEventListener("mousemove", mouseMove);

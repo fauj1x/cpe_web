@@ -1,7 +1,10 @@
 import React from 'react';
 import Image from 'next/image';
 
-export default function VisionMissionSection({id}) {
+interface VisionMissionSectionProps {
+  id: string;
+}
+export default function VisionMissionSection({id}: VisionMissionSectionProps) {
   return (
     <div id={id} className="mt-16 p-6 max-w-7xl mx-auto overflow-hidden">
       <div className="flex">

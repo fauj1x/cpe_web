@@ -1,7 +1,11 @@
 import React from 'react';
 import Image from 'next/image';
 
-export default function GallerySection({id}) {
+
+interface GallerySectionProps {
+  id: string;
+}
+export default function GallerySection({id}: GallerySectionProps) {
   return (
     <section id={id} className="text-black body-font">
       <div className="container mt-32 px-5 py-24 mx-auto flex flex-wrap">

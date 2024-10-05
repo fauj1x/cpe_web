@@ -4,7 +4,8 @@ import Image from 'next/image';
 interface AboutUsSectionProps {
 id: string;
 }
-export default function AboutUsSection({ id }) {
+export default function AboutUsSection({ id }: AboutUsSectionProps) {
+
   
   return (
     <div id={id} className="relative mt-48 p-6 max-w-7xl mx-auto fade-in">

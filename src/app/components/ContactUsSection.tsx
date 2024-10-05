@@ -1,7 +1,11 @@
 // components/ContactUsSection.js
 import React from 'react';
 
-const ContactUsSection = ({id}) => {
+interface ContactUsSectionProps {
+  id: string;
+}
+
+const ContactUsSection = ({id}: ContactUsSectionProps) => {
   return (
     <section id="contact-us" className="text-gray-600 body-font relative">
       <div className="container px-5 py-24 mx-auto">

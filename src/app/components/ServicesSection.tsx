@@ -1,7 +1,11 @@
 import React from 'react';
 import Image from 'next/image';
 
-export default function ServicesSection({ id }) {
+interface ServicesSectionProps {
+  id: string;
+}
+
+export default function ServicesSection({ id }: ServicesSectionProps) {
   return (
     <div id={id} className="mt-[250px] p-6 max-w-7xl mx-auto">
       <div className="flex justify-center">
