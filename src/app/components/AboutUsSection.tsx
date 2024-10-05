@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 
-export default function AboutUsSection({ id }) {
+export default function AboutUsSection({ id: any }) {
   return (
     <div id={id} className="relative mt-48 p-6 max-w-7xl mx-auto fade-in">
       <div className="flex">
