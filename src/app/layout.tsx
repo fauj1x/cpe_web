@@ -4,7 +4,7 @@ import { Poppins } from "next/font/google";
 import "./globals.css";
 import { useState, useEffect } from "react";
 import Head from "next/head";
-import AOS from "aos";
+import AOS from "aos"; // Mengimpor AOS
 import "aos/dist/aos.css"; // Mengimpor CSS AOS
 import Link from 'next/link';
 

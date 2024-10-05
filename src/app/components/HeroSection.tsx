@@ -2,7 +2,7 @@
 import React, { useEffect } from "react";
 
 // Mouse tracking functions
-export const mouseMove = (e) => {
+export const mouseMove = (e: MouseEvent) => {
   Object.assign(document.documentElement, {
     style: `
       --move-x: ${(e.clientX - window.innerWidth / 2) * -0.005}deg;
